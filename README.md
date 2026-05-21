@@ -3,6 +3,7 @@ Customer behavior analysis using Python, SQL and Power BI
 🛍️ Customer Shopping Behavior Analysis
 📌 Project Overview
 This project analyzes customer shopping behavior using transactional data (~3,900 records) across multiple product categories. The goal is to uncover insights into customer spending patterns, product preferences, and subscription trends to support data-driven business decisions.
+
 📊 Dataset Summary
 Total Records: 3,900
 Features: 18 columns
