@@ -1,29 +1,38 @@
 # customer_behavior_analysis
 Customer behavior analysis using Python, SQL and Power BI
-🛍️ Customer Shopping Behavior Analysis
-📌 Project Overview
+---
+# 🛍️ Customer Shopping Behavior Analysis
+## 📌 Project Overview
 This project analyzes customer shopping behavior using transactional data (~3,900 records) across multiple product categories. The goal is to uncover insights into customer spending patterns, product preferences, and subscription trends to support data-driven business decisions.
+------
+## 📊 Dataset Summary
+-Total Records: 3,900
+-Features: 18 columns
 
-📊 Dataset Summary
-Total Records: 3,900
-Features: 18 columns
-Key Data Includes:
-Customer Information: Age, Gender, Location, Subscription Status
+### Key Data Includes:
+-Customer Information: Age, Gender, Location, Subscription Status
 Purchase Details: Item Purchased, Category, Purchase Amount, Season, Size, Color
 Behavioral Data: Discount Usage, Purchase Frequency, Previous Purchases, Review Ratings, Shipping Type
+
 ⚠️ Missing values: 37 entries in Review Rating column (handled during preprocessing)
-🧹 Data Cleaning & Preparation (Python)
-Performed using Pandas:
-Loaded and explored data using df.info() and describe()
-Handled missing values using median imputation by category
-Renamed columns to snake_case for consistency
-Removed redundant column (promo_code_used)
-🔧 Feature Engineering:
-Created age_group for customer segmentation
-Derived purchase_frequency_days for behavioral analysis
-Final cleaned dataset stored in PostgreSQL for further querying
-🗄️ Data Analysis (SQL)
-Used PostgreSQL to answer key business questions:
+----
+
+## 🧹 Data Cleaning & Preparation (Python)
+### Performed using Pandas:
+-Loaded and explored data using df.info() and describe()
+-Handled missing values using median imputation by category
+-Renamed columns to snake_case for consistency
+-Removed redundant column (promo_code_used)
+
+### 🔧 Feature Engineering:
+-Created age_group for customer segmentation
+-Derived purchase_frequency_days for behavioral analysis
+=Final cleaned dataset stored in PostgreSQL for further querying
+
+---
+
+## 🗄️ Data Analysis (SQL)
+### Used PostgreSQL to answer key business questions:
 Key Analyses:
 💰 Revenue comparison by gender
 🛒 High-spending customers using discounts
