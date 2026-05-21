@@ -41,15 +41,6 @@ This project analyzes customer shopping behavior using transactional data (~3,90
 * 🏆 Top 3 products per category
 * 📈 Repeat buyers vs subscription trends
 * 👶 Revenue contribution by age group
-### 📌 Sample Insights:
-* Male customers generated higher total revenue �
-Customer Shopping Behavior Analysis.pdf
-* Express shipping users had slightly higher average purchase value (page 4) �
-Customer Shopping Behavior Analysis.pdf
-* Young adults contributed the highest revenue among all age groups (page 7) �
-Customer Shopping Behavior Analysis.pdf
-* Products like hats and sneakers showed high dependency on discounts (page 5) �
-Customer Shopping Behavior Analysis.pdf
 ## 📊 Dashboard (Power BI)
 An interactive dashboard was built to visualize insights:
 ### Key Metrics:
