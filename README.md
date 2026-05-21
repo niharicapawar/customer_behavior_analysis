@@ -4,7 +4,7 @@ This project analyzes customer shopping behavior using transactional data (~3,90
 ------
 ## 📊 Dataset Summary
 * Total Records: 3,900
-*Features: 18 columns
+* Features: 18 columns
 
 ### Key Data Includes:
 -Customer Information: Age, Gender, Location, Subscription Status
